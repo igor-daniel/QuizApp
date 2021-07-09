@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Logo{
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    transition: cubic-bezier(0.23, 1, 0.320, 1) 1s;
+}
+.Logo:hover{
+    border-bottom: solid 3px red;
+}
+.Logo:before{
+    content: "\A";
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;
+    display: inline-block;
+}
+body{
+    background-image: url(../image/luca-bravo-ii5JY_46xH0-unsplash.jpg);
+    /* background-position: center; */
+    background-size: cover;
+}
+header{
+    background-color: black;
+    /* height: 50px; */
+}
+.container{
+    width: 100vh;
+    margin: auto;
+    margin-top: 100px;
+    /* background-color: yellow; */
+}
+.container__tittle{
+    color: red;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.container__question{
+    background-color: red;
+    display: inline-block;
+    width: 100%;
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.container__list li{
+    width: 100%;
+    list-style: none;
+    font-size: 24px;
+    color: red;
+    /* padding: 10px; */
+    margin: 10px 0;
+    background-color: white;
+    box-sizing: border-box;
+}
+.container__list span{
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.container__list span:hover, .container__button:hover{
+    background-color: rgb(9, 223, 9);
+    border: solid 1px rgb(9, 223, 9);
+}
+
+.container__button{
+    padding: 5px;
+    font-size: 30px;
+    border: solid 1px red;
+    background-color: red;
+    color: white;
+    width: 100%;
+}
